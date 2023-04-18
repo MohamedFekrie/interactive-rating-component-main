@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="card text-light px-4 pt-4 pb-2">
+            <img src=" images/icon-star.svg" class="icon-img card-img-left p-3 rounded-pill" alt="...">
+            <div class="card-body px-0">
+                <h3>How did we do?</h3>
+                <p class="card-text text-white-50">
+                    Please let us know how we did with your support request. All feedback is appreciated
+                    to help us improve our offering!
+                </p>
+                <ul class="list-unstyled d-flex justify-content-center align-items-center position-relative py-3 rounded-pill">
+                    <li class="text-center rounded-circle">1</li>
+                    <li class="text-center rounded-circle">2</li>
+                    <li class="text-center rounded-circle">3</li>
+                    <li class="text-center rounded-circle">4</li>
+                    <li class="text-center rounded-circle">5</li>
+                </ul>
+                <button type="button" class="rounded-pill submit-btn py-2 text-uppercase position-relative">Submit</button>
+            </div>
+        </div>
+        <div class="card done-1 done-2 text-light text-center d-flex justify-content-center align-items-center px-4 py-4">
+            <img class="img-fluid mb-3" src="images/illustration-thank-you.svg" alt="">
+            <p class="thank rounded-pill py-1 px-4 mt-4">You selected <span>4</span> out of 5</p>
+            <h3 class="mt-4 mb-2">Thank you!</h3>
+            <p class="mt-2">
+                We appreciate you taking the time to give a rating. If you ever need more support,
+                don’t hesitate to get in touch!
+            </p>
+        </div>
+    </div>
+    <div class="attribution container text-center w-100">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Mohummed Sayed</a>.
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
